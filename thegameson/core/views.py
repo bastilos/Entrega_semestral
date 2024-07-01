@@ -1,0 +1,20 @@
+from django.shortcuts import render
+
+# Create your views here.
+def index(request): return render(request,"core/index.html")
+def index_ropa_api(request): return render(request,"core/index_ropa_api.html")
+def ingresar(request): return render(request,"core/ingresar.html")
+def menu_superior(request): return render(request,"core/menu_superior.html")
+def miscompras(request): return render(request,"core/miscompras.html")
+def nosotros(request): return render(request,"core/nosotros.html")
+def registro(request): return render(request,"core/registro.html")
+def usuario(request): return render(request,"core/usuario.html")
+def vistaadmin(request): return render(request,"core/vistaadmin.html")
+def usuarios(request): return render(request,"core/usuarios.html")
+def vistausuario(request): return render(request,"core/vistausuario.html")
+def carrito(request): return render(request,"core/carrito.html")
+def boleta(request): return render(request,"core/boleta.html")
+def bodega(request): return render(request,"core/bodega.html")
+def admin_ventas(request): return render(request,"core/admin_ventas.html")
+def admin_add_prod(request): return render(request,"core/admin_add_prod.html")
+def ficha(request): return render(request,"core/ficha.html")
